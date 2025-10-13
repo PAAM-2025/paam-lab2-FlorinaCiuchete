@@ -56,8 +56,7 @@ class MainActivity : AppCompatActivity() {
         Surface(color = Color.White) {
             Box(modifier = Modifier.fillMaxSize()) {
                 Card(
-                    modifier = Modifier
-                        .fillMaxWidth()
+                    modifier = Modifier.fillMaxWidth()
                         .padding(8.dp)
                         .padding(vertical = 100.dp)
                 ) {
